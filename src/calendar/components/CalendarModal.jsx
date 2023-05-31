@@ -65,14 +65,14 @@ export const CalendarModal = () => {
         setFormValues({
             ...formValues,
             [target.name]: target.value
-        })
+        });
     }
 
     const onDateChange = (event, changing) => {
         setFormValues({
             ...formValues,
             [changing]: event
-        })
+        });
     }
 
     const onCloseModal = () => {
